@@ -147,11 +147,11 @@
         author.github,
         url: "https://github.com/" + author.github,
       )
-      #generate_contact(
-        youtube_icon,
-        author.youtube,
-        url: "https://youtube.com/" + author.youtube,
-      )
+      // #generate_contact(
+      //   youtube_icon,
+      //   author.youtube,
+      //   url: "https://youtube.com/" + author.youtube,
+      // )
       #generate_contact(
         itchio_icon,
         author.itchio,
@@ -163,7 +163,7 @@
   align(left)[
     #box[
       #box(radius: 6pt, clip: true)[#image(
-          "assets/images/me.jpg",
+          "assets/images/me.png",
           height: 80pt,
         )]
       #h(8pt)
@@ -241,15 +241,13 @@
 }
 
 // sections specific components
-#let education_item(organization, degree, gpa, time_frame) = {
+#let education_item(organization, degree, time_frame) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
   pad[
     #justify_align[
       #resume_organization[#organization]
-    ][
-      #gpa
-    ]
+    ][]
     #justify_align[
       #resume_degree[#degree]
     ][
