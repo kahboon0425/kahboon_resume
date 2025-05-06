@@ -1,6 +1,6 @@
-# Nixon's Resume
+# Kah Boon's Resume
 
-This repository is where Nixon stores his resume. This way, Nixon will be able to keep track of all his resume versions and changes.
+This repository is where Kah Boon stores her resume. This way, Kah Boon will be able to keep track of all her resume versions and changes.
 
 ## Credit
 
