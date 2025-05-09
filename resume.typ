@@ -10,7 +10,7 @@
     linkedin: "kahboon",
     github: "kahboon0425",
     url_name: "portfolio",
-    url: "https://kahboon0425.github.io/portfolio",
+    url: "https://kahboon0425.github.io",
     // youtube: "@voxelltech",
     itchio: "chang-kah-boon",
     positions: (
@@ -78,7 +78,7 @@
 #box[
   #project_item_header(
     "Portfolio Website",
-    "https://kahboon0425.github.io/portfolio",
+    "https://kahboon0425.github.io",
   )
   #resume_item[
     Created my portfolio website in Rust using Leptos and Bevy.
