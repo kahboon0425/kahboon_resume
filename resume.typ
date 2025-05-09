@@ -24,13 +24,12 @@
 #resume_section[Skills]
 
 #skill_item(
-  "Expertise",
+  "Tools:",
   (
     "Blender",
     "Bevy Engine",
+    "Adobe Illustrator",
     "Unity3D",
-    "Animation",
-    "CGI",
   ),
 )
 
@@ -96,6 +95,15 @@
   ]
 ]
 
+
+#project_item_header(
+  "Bevy Motion Matching",
+  "https://github.com/kahboon0425/bevy_motion_matching",
+)
+#resume_item[
+  A machine learning based motion matching animation system.
+]
+
 #box[
   #project_item_header(
     "Lumina",
@@ -104,14 +112,6 @@
   #resume_item[
     A top down, fast paced, objective based, PvP game, written in Rust, using the Bevy game engine.
   ]
-]
-
-#project_item_header(
-  "Bevy Motion Matching",
-  "https://github.com/kahboon0425/bevy_motion_matching",
-)
-#resume_item[
-  A machine learning based motion matching animation system.
 ]
 
 #project_item_header(
@@ -171,8 +171,6 @@
 )
 
 #resume_section[Awards]
-
-Certificates: #link("https://www.linkedin.com/in/kahboon/details/honors/")
 
 #award_item_header(
   "Virtual Innovation Competition 2023",
