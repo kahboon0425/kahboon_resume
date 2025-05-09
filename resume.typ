@@ -88,7 +88,7 @@
 #box[
   #project_item_header(
     "Blender Self Learn",
-    "https://kahboon0425.github.io/portfolio/portfolio",
+    "https://kahboon0425.github.io/portfolio",
   )
   #resume_item[
     Self learnt blender and created multiple projecs involving 3D modeling, 2D art, animation, rigging, CGI, etc.
