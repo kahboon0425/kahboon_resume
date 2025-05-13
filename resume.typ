@@ -29,6 +29,8 @@
     "Blender",
     "Bevy Engine",
     "Adobe Illustrator",
+    "Zbrush",
+    "Substance Painter"
     "Unity3D",
   ),
 )
