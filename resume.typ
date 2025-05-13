@@ -30,7 +30,7 @@
     "Bevy Engine",
     "Adobe Illustrator",
     "Zbrush",
-    "Substance Painter"
+    "Substance Painter",
     "Unity3D",
   ),
 )
