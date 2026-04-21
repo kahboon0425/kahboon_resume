@@ -14,7 +14,7 @@
     // youtube: "@voxelltech",
     itchio: "chang-kah-boon",
     positions: (
-      "3D/2D Artist",
+      "3D Designer",
     ),
   ),
   date: datetime.today().display("[day] [month repr:long] [year]"),
@@ -23,15 +23,23 @@
 #resume_section[Skills]
 
 #skill_item("Tools:", (
+  "3ds Max",
   "Blender",
-  "Bevy Engine",
-  "Adobe Illustrator",
   "Zbrush",
-  "Substance Painter",
-  "Unity3D",
+  "Photoshop",
 ))
 
 #resume_section[Experience]
+
+#work_experience_item_header(
+  "IGMAX DECO Sdn Bhd",
+  "3D Designer",
+  "Malaysia",
+  "Jun. 2025 - Current",
+)
+#resume_item[
+  - Create 3D designs for shopping mall events, primarily focusing on festive occasions such as Chinese New Year, Hari Raya, and Christmas.
+]
 
 #work_experience_item_header(
   "IFAST Corporation Ltd",
@@ -40,7 +48,7 @@
   "Jan. 2024 - Apr. 2024",
 )
 #resume_item[
-  - Involved in web development using Angular and SpringBoot.
+  - Involved in web development using Angular and Spring Boot.
 ]
 
 #work_experience_item_header(
@@ -50,7 +58,7 @@
   "Oct. 2022 – Dec. 2022",
 )
 #resume_item[
-  - Help optimize website organic traffic, enhance online presence, analyze keywords, and improve website performance.
+  - Helped optimize website organic traffic, enhance online presence, analyze keywords, and improve website performance.
 ]
 
 #resume_section[Education]
@@ -66,7 +74,7 @@
 #education_item[
   Asia Pacific University of Technology & Innovation (APU)
 ][
-  Diploma in Information Communication Technology specialized in Data Analytic
+  Diploma in Information Communication Technology specialized in Data Analytics
 ][
   Sep. 2020 – Dec. 2022
 ]
@@ -74,26 +82,45 @@
 #resume_section[Projects]
 
 #box[
-  #project_item_header("Bunguette", "https://github.com/nixon-voxell/bunguette")
-  #resume_item[
-    A 3rd person local coop game with tower defense and strategy.
-  ]
+  #project_item_header(
+    "3D Event Design",
+    "https://kahboon0425.github.io/projects",
+  )
+  #grid(
+    columns: 6,
+    column-gutter: 4pt,
+    row-gutter: 0pt,
+    image("assets/images/work-projects/1.png", height: 55pt),
+    image("assets/images/work-projects/2.png", height: 55pt),
+    image("assets/images/work-projects/3.png", height: 55pt),
+    image("assets/images/work-projects/4.png", height: 55pt),
+    image("assets/images/work-projects/5.png", height: 55pt),
+    image("assets/images/work-projects/6.png", height: 55pt),
+  )
 ]
 
 #box[
-  #project_item_header("Portfolio Website", "https://kahboon0425.github.io")
+  #project_item_header("Bunguette", "https://chang-kah-boon.itch.io/bunguette")
   #resume_item[
-    Created my portfolio website in Rust using Leptos and Bevy.
+    A 3rd person local coop game with tower defense and strategy. Responsible for creating game art.
   ]
+  #grid(
+    columns: 6,
+    column-gutter: 4pt,
+    row-gutter: 0pt,
+    image("assets/images/game-project/1.png", height: 55pt),
+    image("assets/images/game-project/2.png", height: 55pt),
+  )
 ]
+
 
 #box[
   #project_item_header(
-    "Blender Self Learn",
-    "https://www.instagram.com/the_sushi_queen_art/",
+    "Personal Projects",
+    "https://kahboon0425.github.io/personal",
   )
   #resume_item[
-    Self learnt blender and created multiple projecs involving 3D modeling, 2D art, animation, rigging, CGI, etc.
+    Self-taught Blender and created multiple projects involving 3D modeling, animation, sculpting, etc.
   ]
 ]
 
@@ -103,22 +130,16 @@
   "https://github.com/kahboon0425/bevy_motion_matching",
 )
 #resume_item[
-  A machine learning based motion matching animation system.
+  A machine learning-based motion matching animation system.
 ]
 
-#box[
-  #project_item_header("Lumina", "https://nixon-voxell.itch.io/lumina")
-  #resume_item[
-    A top down, fast paced, objective based, PvP game, written in Rust, using the Bevy game engine.
-  ]
-]
 
 #project_item_header(
   "Railed to Rail",
   "https://nixon-voxell.itch.io/railed-to-rail",
 )
 #resume_item[
-  An endless casual casual game where players try to build rails for a moving train.
+  An endless casual game where players try to build rails for a moving train.
 ]
 
 #project_item_header("Moji Moji", "https://chang-kah-boon.itch.io/moji-moji")
